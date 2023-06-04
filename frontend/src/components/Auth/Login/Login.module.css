@@ -1,0 +1,87 @@
+.l_main {
+    position: relative;
+    padding: 100px 0;
+    display: flex;
+}
+
+.lm_container {
+    background-color: #23A6F0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 50px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.lm_h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 50px;
+}
+
+.lmc_block {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.lcmb_input {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    min-width: 250px;
+    padding: 10px;
+    border: 2px solid #E6E6E6;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.lcmb_input:focus {
+    outline: none;
+    border: 2px solid #23A6F0;
+}
+
+.lmc_cont_butt {
+    display: flex;
+    padding: 20px;
+}
+
+.lmc_butt {
+    background-color: white;
+    color: #23A6F0;
+    border-radius: 20px;
+    border: none;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.lmc_butt:hover {
+    color: white;
+    background-color: black;
+}
+
+.lmc_navlink {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    transition: all .1s linear;
+}
+
+.lmc_navlink:hover {
+    color: black;
+}

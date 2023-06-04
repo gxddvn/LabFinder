@@ -1,0 +1,280 @@
+.Main {
+    padding-top: 100px;
+    position: relative;
+}
+
+.skeleton {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m_statblock {
+    margin-bottom: 150px;
+}
+
+.ms_h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 50px;
+}
+
+.ms_container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.msc_stat {
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.mscs_circle {
+    position: relative;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: white;
+    width: 200px;
+    padding: 86px 0;
+    text-align: center;
+    margin: auto auto;
+    border-radius: 50%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    /* color: white; */
+    color: #23A6F0;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.mscs_circle1 {
+    background-color: #23A6F0;
+    color: white;
+    width: 260px;
+    padding: 116px 0;
+}
+
+.m_h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.m_container {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    max-width: 1200px;
+    /* margin-top: 50px; */
+}
+
+.m_container_contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin-top: 150px;
+}
+
+.mcc_contactblock {
+    padding: 50px;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.mccc_h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    color: black;
+    text-align: center;
+}
+
+.mccc_container {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 50px 100px;
+    margin-top: 30px;
+}
+
+.mccc_phone_block {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: black;
+    /* margin: 10px 0; */
+}
+
+.mcccpb_name {
+    font-size: 26px;
+    margin-bottom: 5px;
+    color: #23A6F0;
+}
+
+.mcccpb_phone {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.mcccpb_img {
+    width: 60px;
+    height: 60px;
+    background-image: url('../../img/phone-call.svg');
+    background-size: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+    opacity: 0.2;
+}
+
+.mcccpb_info {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: black;
+}
+
+.mcccpbi_p {
+    margin: 5px 0;
+}
+
+.mcccpbi_p span {
+    color: #23A6F0;
+}
+
+.m_container_input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.mci_inh {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    filter: blur(5px);
+    padding: 20px 0;
+}
+
+.mci_input {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    min-width: 900px;
+    padding: 10px;
+    border: 2px solid #E6E6E6;
+    border-radius: 10px;
+}
+
+.mci_butt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.mci_butt:hover {
+    background-color: #1179b6;
+}
+
+.mci_gradeblock {
+    display: flex;
+    align-items: center;
+}
+
+.mcig_grades {
+    background-image: url("../../img/none_star.svg");
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.mci_gradeblock:hover > .mcig_grades{
+    background-image: url("../../img/star-svgrepo-com.svg");
+}
+
+.mci_gradeblock:hover > .mcig_grades:hover ~ .mcig_grades {
+    background-image: url("../../img/none_star.svg");
+}
+
+.mcig_grades1 {
+    background-image: url("../../img/star-svgrepo-com.svg");
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.mc_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mc_butt {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.mc_butt:hover {
+    background-color: #1179b6;
+}
+
+.mci_blur {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}

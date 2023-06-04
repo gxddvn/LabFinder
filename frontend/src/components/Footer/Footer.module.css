@@ -1,0 +1,55 @@
+.Footer {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-color: #23A6F0;
+    padding: 50px 0;
+    margin-top: 150px;
+}
+
+.f_container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.fc_logo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.fc_political {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    transition: all .1s linear;
+}
+
+.fc_political:hover {
+    /* color: rgb(231, 231, 231); */
+    color: black;
+    text-decoration: underline;
+}
+
+.fc_navblock {
+    margin-left: 50px;
+}
+
+.fc_navlinks {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    margin: 0 10px;
+    transition: all .1s linear;
+}
+
+.fc_navlinks:hover {
+    /* color: #6ec9fe; */
+    color: black;
+}

@@ -1,0 +1,64 @@
+.bmc_block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.12);
+    background-color: white;
+    /* min-width: 930px; */
+    /* border: 4px solid #23A6F0;
+    border-left: 0;
+    border-right: 0; */
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+.bmcb_name {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+.bmcb_name1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+    max-width: 350px;
+    min-width: 350px;
+}
+
+.bmcb_name2 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.bmcb_circle {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.bmcb_circle:hover {
+    background-color: #23A6F0;
+    border: 2px solid #23A6F0;
+}
+
+.bmcb_circle:hover .bmcb_img{
+    background-image: url('../../../img/close-white.svg');
+
+}
+
+.bmcb_img {
+    background-image: url('../../../img/close.svg');
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+}
