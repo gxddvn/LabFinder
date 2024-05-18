@@ -12,7 +12,7 @@ const Map = ({laboratories, lab_id}) => {
   React.useEffect(() => {
     if (laboratories.length !== 0) {
       if(lab_id > 0) {
-        setCenterPos(laboratories[lab_id-1].coordinates.split(', '));
+        setCenterPos(laboratories[lab_id-1]?.coordinates.split(', '));
         setZoom(15);
       }
       else {
@@ -21,7 +21,6 @@ const Map = ({laboratories, lab_id}) => {
       }
     }
   }, [laboratories, lab_id])
-  
   if (!isLoaded) return <div>Loading...</div>;
   return (
     <GoogleMap zoom={zoom} center={{lat: parseFloat(center_pos[0], 10) , lng: parseFloat(center_pos[1], 10)}} mapContainerClassName='map-container'>

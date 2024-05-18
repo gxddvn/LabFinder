@@ -8,6 +8,7 @@ const UsersTable = sequelize.define( 'users_table', {
     email: {type: DataTypes.STRING, allowNull: false, unique: true},
     password: {type: DataTypes.STRING, allowNull: false},
     user_role: {type: DataTypes.STRING, defaultValue: "USER"},
+    coordinates: {type: DataTypes.STRING,}
 });
 
 const BasketUser = sequelize.define( 'basket_user', {

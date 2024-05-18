@@ -10,6 +10,7 @@ import analyzesOrdersRoutes from './analyzesOrdersRoutes.js';
 import ordersRoutes from './ordersRoutes.js';
 import laboratoryRoutes from './laboratoryRoutes.js';
 import calendarRoutes from './calendarRoutes.js';
+import labRecomendationRoutes from './labRecomendationRoutes.js'
 
 router.use('/user', userRoutes)
 router.use('/analyzes', analyzesRoutes)
@@ -21,5 +22,6 @@ router.use('/analyzesorders', analyzesOrdersRoutes)
 router.use('/orders', ordersRoutes)
 router.use('/laboratory', laboratoryRoutes)
 router.use('/calendar', calendarRoutes)
+router.use('/rec', labRecomendationRoutes)
 
 export default router;
